@@ -1,0 +1,17 @@
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-gallery__image {
+    box-shadow: 1px 1px 5px 3px gray;
+    transition: all 0.4s;
+    margin: 8px;
+}
+
+.image-gallery__image:hover {
+    transform: scale(1.005);
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 3px rgba(32, 32, 32, 0.7);
+}
